@@ -16,15 +16,15 @@ body {
 .box {
     position: relative;
     width: 300px;
-    height: 500px;
+    height: 450px;
     background-color: #161B22; /* Dark grayish navy */
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
 }
 
 .git-link, 
 .insta, 
-.frontend-mentor, 
 .linkedln {
     position: absolute;
     width: 260px;
@@ -41,15 +41,14 @@ body {
 
 .git-link:hover, 
 .insta:hover, 
-.frontend-mentor:hover, 
 .linkedln:hover {
     background-color: #354F52; /* Slightly lighter green on hover */
 }
 
-.git-link { top: 240px; }
-.linkedln { top: 300px; }
-.insta { top: 360px; }
-.frontend-mentor { top: 420px;}
+.git-link { top: 260px; }
+.linkedln { top: 320px; }
+.insta { top: 380px; }
+
 
 .intro-subtitle{
     position: absolute;
@@ -58,4 +57,25 @@ body {
     width: 250px;
     top: 150px;
     left: 40px;
+}
+
+.git-logo{
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    right: 50px;
+}
+
+.linkedln-logo{
+    position: absolute;
+    height: 50px;
+    top: -4px    ;
+    right: 40px;
+}
+.instagram-logo{
+    position: absolute;
+    height: 30px;
+    top: 4px    ;
+    right: 40px;
+    
 }
